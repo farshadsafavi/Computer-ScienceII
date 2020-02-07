@@ -42,10 +42,10 @@ public class DataSetGen<T extends Measurable> {
 	}
 	
 	
-   /**************************************************
-   Gets the average of the added data.
-   @return the average or 0 if no data has been added
-   ****************************************************/
+	/**************************************************
+    Gets the average of the added data.
+    @return the average or 0 if no data has been added
+    ****************************************************/
 	public double getAverage() {
 		 if (count == 0) return 0;
 	     else return (sum / count);
